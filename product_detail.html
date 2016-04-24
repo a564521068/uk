@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=640,user-scalable=no" />
+    <title>商品详情</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<header class="container">
+		<div class="row">
+			<div class="col-xs-2" onclick="history.back();"><a href="#" class="tbar"><img src="images/fanhui.png" alt=""></a></div>
+			<div class="col-xs-8">
+				<div class="title">商品详情</div>
+			</div>
+			<div class="col-xs-2"><a href="#" class="comment"><img src="images/share.png" alt=""></a></div>
+		</div>
+	</header>
+	<div id="banner" class="datail_scoll">
+		<div class="container">
+			<div class="row">
+				<ul class="bxslider">
+				  <li><a href="#"><img src="images/detail_1.jpg" /></a></li>
+				  <li><a href="#"><img src="images/detail_1.jpg" /></a></li>
+				  <li><a href="#"><img src="images/detail_1.jpg" /></a></li>
+				  <li><a href="#"><img src="images/detail_1.jpg" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="product_tip_1">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3>了解价格详情 <a href="#">请登录</a></h3>
+					<p>您未登录或已购满限额，请查看购物车。您可以通过升级会员或等待下月购买，
+                       <br>给您造成的不便敬请谅解！</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="product_detail">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h5 class="tit">小米电视3 55英寸4K智能平板液晶电视机</h5>
+					</div>
+					<div class="col-xs-6">
+						<p>市场价:  <del>￡900镑</del></p>                                
+						<p>初级代理:  <span>￡700镑</span></p>                            
+						<p>高级代理:  <span>￡500镑</span></p>
+					</div>
+					<div class="col-xs-6">
+						<p>会员价:  <span>￡800镑</span></p>
+						<p>中级代理:  <span>￡600镑</span></p>
+						<p>可购数： <span>0件</span></p>
+					</div>
+					<div class="col-xs-4 item"><img src="images/icon_6.png" alt=""> 全场直邮</div>
+					<div class="col-xs-4 item"><img src="images/icon_7.png" alt=""> 100%正品保证</div>
+					<div class="col-xs-4 item"><img src="images/icon_8.png" alt=""> 7日退换货</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="tit">产品信息</div>
+					</div>
+					<div class="col-xs-6">
+						<p>产品编号：000896539-9</p>    
+						<p>产 地：中国·广州</p>                                                  
+						<p>重 量：350</p>                                                   
+						
+					</div>
+					<div class="col-xs-6">
+						<p>型 号：BG-4586dd</p> 
+						<p>规 格：Gumr-Colfd</p>  
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="ps">
+			配送费：27kg以下商品费用约￥896.89
+		</div>
+		<div class="telp">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<img src="images/tel_icon.png" alt=""> 订购热线：020-5588-77888
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="product_tag">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12" id="spac">
+					<h3>颜色</h3>
+					<a href="#" class="tag cur">红色</a>
+					<a href="#" class="tag">蓝色</a>
+				</div>
+				<div class="col-xs-12">
+					<h3>购买数量</h3>
+					<div class="value-box">
+						<span class="jian">-</span>
+						<input type="text" class="goods-number" name="cart_num" onkeyup="this.value=this.value.replace(/[^\d]/g,'') " onafterpaste="this.value=this.value.replace(/[^\d]/g,'') " value="1">
+						<span class="jia">+</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="product_info">
+		<h3 class="tit">
+			<span>商品详情</span>
+		</h3>
+		<div class="content">
+			<img src="images/product_detail.jpg" alt="">
+		</div>
+	</div>
+	<div id="buy">
+		<div class="car">
+			<img src="images/car.png" alt=""> <span class="num"><i>0</i>件</span>
+		</div>
+		<a href="cart.html" class="add_to_car">加入购物车</a>
+		<a href="order_confirm.html" class="buy_it">立即购买</a>
+	</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bxslider.min.js"></script>
+    <script src="js/SuperSlide.js"></script>
+    
+	<script>
+	$(document).ready(function(){
+		$('.bxslider').bxSlider();
+		$("#spac a").click(function(e){
+			e.preventDefault();
+			$(this).siblings().removeClass("cur");
+			$(this).addClass('cur');
+		})
+		$('.jian').click(function(){
+			var val = parseInt($('.goods-number').val());
+			if (val<=1) return;
+			$('.goods-number').val(val-1);
+		});
+		$('.jia').click(function(){
+
+			var val = parseInt($('.goods-number').val())
+			$('.goods-number').val(val+1);
+
+		});
+	});
+	</script>
+  </body>
+</html>
